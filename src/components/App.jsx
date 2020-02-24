@@ -1,10 +1,14 @@
 import React from 'react';
 import '../assets/css/app.css';
 
+import Marquee from './Marquee'
+import Game from './Game'
+
 function App() {
   return (
     <div className="App">
-      <p>Welcome to week 15 lab</p>
+      <Marquee />
+      <Game />
     </div>
   );
 }
